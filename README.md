@@ -2,7 +2,7 @@
 ---
 Playpen for showing how two docker containers can share data.
 
-`docker-compose.yml` creates two containers running ubuntu, and shares a data
+[docker-compose.yml](docker-compose.yml) creates two containers running ubuntu, and shares a data
 dir between them
 
 
