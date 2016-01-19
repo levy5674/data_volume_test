@@ -14,6 +14,8 @@ Starting datavolumetest_writer_1...
 Starting datavolumetest_reader_1...
 ```
 
+Each container is just sleeping for 300 seconds.  You have that long to write and read the shared volume.
+
 ## Connect to writer, and write
 
 ```{bash}
