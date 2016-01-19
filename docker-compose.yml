@@ -1,0 +1,11 @@
+writer:
+    image: ubuntu:14.04.3
+    volumes:
+        - /data
+    command: sleep 300
+
+reader:
+    image: ubuntu:14.04.3
+    volumes_from: 
+        - 'writer'
+    command: sleep 300
